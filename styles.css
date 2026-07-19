@@ -1,0 +1,311 @@
+/* */
+*{ 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'arial', helvetica, sans-serif;
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    overflow-x: hidden;
+}
+/* the puple column */
+.hero
+{   
+    background-color: rgb(129, 155, 143);
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:  wrap;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+/* the header */
+.header
+{   
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 40px 100px;
+}
+/*menu */
+.menu
+{   
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+/*date */
+.date
+{   
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 10px;
+}
+/*title */
+.title
+{   
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 20px;
+}
+/*subtitle */
+.subtitle
+{   
+    max-width: 450px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 30px;
+}
+/*explore sessions button */
+.explore-sessions
+{   
+    background-color: white;
+    color: #6a0dad;
+    border: none;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* nav bar */
+.navbar
+{   display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    background-color: #333;
+    
+}
+.mascot
+{   
+    height: 120px;
+    width: 120px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.brandname
+{   
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    color: black;
+  
+}
+.subtitle
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+    
+}
+.menu
+{   
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+/*white column */
+.features-title 
+{   
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    color:black;
+    font-size: 15px;
+
+}
+/*title-subtitle */
+.features-subtitle
+{   
+
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.5;
+    color: #191315;
+    
+    
+}
+ 
+/*first-left-picture */
+.first-left-picture{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+/*content-with-right-image */
+.content-with-right-image{
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-bottom: 1px solid #ccc;
+}
+/*conference image */
+.conference-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 4px solid white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* conference text group */
+.conference-text-group{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.conference-text-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a0dad;
+    margin: 0;
+}
+.conference-header-{
+    font-size: 60px;
+    font-weight: bold;
+    color: indigo;
+    margin: 0;
+}
+.conference-text-description{
+    font-size: 20px;    
+    font-weight: lighter;
+    color: #191315;
+    margin: 0;
+}
+/*event details */
+.event-details{
+   background-color: #f3e7fa; /* lilac */
+    min-height: 400px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color:indigo;
+    font-size: 30px;
+ 
+}
+
+.event-details-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6a0dad;
+}
+
+.event-details-footnote {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6a0dad;
+}
+
+/* event cards */
+.event-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.event-card{
+    background-color: white;
+    flex: 1;
+    min-height: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 16px;
+    border: 3px solid #6a0dad;
+    border-radius: 10px;
+}
+
+.event-card h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a0dad;
+}
+.event-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6a0dad;
+}
+
+/*endnote */
+.endnote{
+    background-color: #6a0dad;
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+}
