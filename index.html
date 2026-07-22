@@ -10,21 +10,23 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <!--header -->
-    <div class="header">
+    <header class="header">
       <!--left side  -->
       <a href="#" class="logo"> TALL CONF</a>
       <!-- right side -->
-      <ul class="menu">
-        <li><a href="">ABOUT</a></li>
-        <li><a href="">SESSIONS</a></li>
-        <li><a href="">DETAILS</a></li>
-      </ul>
-    </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#sessions">SESSIONS</a></li>
+          <li><a href="#details">DETAILS</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- Hero section -->
     <div class="hero">
       <!-- body -->
@@ -39,7 +41,7 @@
       </div>
     </div>
 
-    <div class="features">
+    <div class="features" id="about">
       <h2 class="feature-title">Oh, come, all ye learners!</h2>
       <p class="title-subtitle">
         TaLL Conf brings curious students together for practical sessions,simple
@@ -47,7 +49,7 @@
       </p>
     </div>
     <!-- conference section -->
-    <section class="conference">
+    <section class="conference" id="sessions">
       <!-- content 1 -->
       <div class="content-with-left-image">
         <!-- image -->
@@ -55,7 +57,7 @@
           <img
             class="conference-image"
             src="/assets/keynote.png"
-            alt="open address"
+            alt=" speaker giving open address"
           />
         </div>
 
@@ -77,7 +79,7 @@
           <img
             class="conference-image"
             src="/assets/html-css-lab.png"
-            alt="html css lab"
+            alt=" students doing html css lab work"
           />
         </div>
         <!-- text -->
@@ -98,7 +100,7 @@
           <img
             class="conference-image"
             src="/assets/team-build.png"
-            alt="team building"
+            alt="learners rubbing mimds together"
           />
         </div>
         <!-- text -->
@@ -140,7 +142,7 @@
           <img
             class="conference-image"
             src="/assets/demo-day.png"
-            alt="exercise"
+            alt="exercise day to show projects"
           />
         </div>
         <!-- text -->
@@ -157,7 +159,7 @@
 
     <footer class="footer">
       <!-- event details -->
-      <div class="event-details">
+      <div class="event-details" id="details">
         <div class="event-details-title">Event Details</div>
         <div class="event-cards">
           <!-- card 1 -->
@@ -181,7 +183,9 @@
             </p>
           </div>
         </div>
-        <div class="event-details-footnote">More details will be announced soon</div>
+        <div class="event-details-footnote">
+          More details will be announced soon
+        </div>
       </div>
 
       <!-- end note -->
